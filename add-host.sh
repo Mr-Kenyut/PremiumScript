@@ -5,8 +5,8 @@ echo ""
 echo "Sub-Domain" ${sub}
 DOMAIN=apntunnel.site
 SUB_DOMAIN=${sub}.apntunnel.site
-CF_ID=reza79112@gmail.com
-CF_KEY=4b3f1ff6c8e0094b125fbb2470471fd60d435
+CF_ID=rezaadrian003@gmail.com
+CF_KEY=d0bc7b19679046a66f9d2d663f75d7df131ff
 set -euo pipefail
 IP=$(wget -qO- icanhazip.com);
 echo "Updating DNS for ${SUB_DOMAIN}..."
